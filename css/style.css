@@ -3,7 +3,7 @@
   height: 200px;
   border: solid 2px black;
   display: inline-block;
-  margin-right: 40px;
+  margin-right: 20px;
 }
 .Austria {
   background: linear-gradient(to top, red 0 33%, white 33% 66%, red 66% 100%);
@@ -47,4 +47,18 @@
     yellow 50% 75%,
     blue 75% 100%
   );
+}
+.Austria::before {
+  content: "Austria";
+}
+.Belgium::before {
+  content: "Belgium";
+  color: white;
+}
+.Benin::before {
+  content: "Benin";
+}
+
+.Buddhism::before {
+  content: "Buddhism ";
 }
