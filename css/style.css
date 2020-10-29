@@ -1,0 +1,50 @@
+.flag {
+  width: 200px;
+  height: 200px;
+  border: solid 2px black;
+  display: inline-block;
+  margin-right: 40px;
+}
+.Austria {
+  background: linear-gradient(to top, red 0 33%, white 33% 66%, red 66% 100%);
+}
+.Belgium {
+  background: linear-gradient(
+    to right,
+    black 0 33%,
+    yellow 33% 66%,
+    red 66% 100%
+  );
+}
+.Benin {
+  background: linear-gradient(to right, green 0 40%);
+}
+
+.Benin-2 {
+  width: 120px;
+  height: 200px;
+  background: linear-gradient(to bottom, red 0 50%, yellow 0 50%);
+  float: right;
+}
+.Buddhism {
+  background: linear-gradient(
+    to right,
+    blue 0 16%,
+    yellow 16% 32%,
+    red 32% 48%,
+    white 48% 64%,
+    orange 64% 100%
+  );
+}
+.Buddhism-2 {
+  width: 40px;
+  height: 150px;
+  float: right;
+  background: linear-gradient(
+    to top,
+    white 0 25%,
+    red 25% 50%,
+    yellow 50% 75%,
+    blue 75% 100%
+  );
+}
